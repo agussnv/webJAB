@@ -5,28 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./img/favicon.png" type="image/x-icon"> 
-
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap"
+        rel="stylesheet">
     <title>Jaén, Noviello & de Bettencourt Group</title>
 </head>
 
 <body>
-    <div class="top">
+    <header>
+        <nav class="barra">
+            <div class="verticalalign">
+                <img src="img/JaénNovielloBetten.png" alt="logo" id="logo">
+            </div>
+            <div class="verticalalign">
+                <ul>
+                    <li><a href="#">Empleados</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Ventas</a></li>
+                </ul>
+                <div>
+        </nav>
+    </header>
+    <!-- <div class="top">
         <div class="derecha">
             <ul>
-                <!-- Quitar los estilos de los links y hacer que se ponga unas al lado de otras los titulos para que vayan a otra pagina para mostrar el contenido-->
-                <li><a href="">Empleados</a></li> <!-- Dentro de esta pagina ira: contrato de los empleados, reclutamiento y ausencias para no sobrecarhar tanto el index -->
-                <li><a href="">Productos</a></li> <!-- En productos ira el inventario, reparaciones y control de calidad -->
-                <li><a href="">Ventas</a></li> <!-- En ventas ira las ventas, compra y facturacion -->
+                 Quitar los estilos de los links y hacer que se ponga unas al lado de otras los titulos para que vayan a otra pagina para mostrar el contenido
+                <li><a href="">Empleados</a></li>
+                 Dentro de esta pagina ira: contrato de los empleados, reclutamiento y ausencias para no sobrecarhar tanto el index
+                <li><a href="">Productos</a></li>
+                 En productos ira el inventario, reparaciones y control de calidad
+                <li><a href="">Ventas</a></li>  En ventas ira las ventas, compra y facturacion
             </ul>
             <div class="logo">
-                <a href=""><img src="./img/JaénNovielloBetten.png" alt="LogoEmpresa"></a> <!-- Poner un sobre nostros y un pequeño formulario de contacto-->
+                <a href=""><img src="./img/JaénNovielloBetten.png" alt="LogoEmpresa"></a>
+                 Poner un sobre nostros y un pequeño formulario de contacto
             </div>
         </div>
+     </div>
+     -->
+    <section id="main">
+        <div>
+            <img src="./img/JaénNovielloBetten.png" alt="LogoEmpresa">
+        </div>
+        <div style="width: 100%; margin-top: 20px;">
+            <h2 style="display:flex; justify-content: center; font-family: 'Sedan SC', serif; font-size: 35px; margin-bottom: -15px;">Jaén, Noviello & de Bettencourt</h2>
+            <h3 style="text-align: center; letter-spacing: 8px; font-family: 'Sedan SC', serif;">Technology<br>Group</h3>
+        </div>
+    </section>
+
+
+
+    <div class="ventas">
+        <table>
+            <tr>
+                <th>
+                    <h2>Sección de ventas, facturación y compra</h2>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h3>Sección ventas</h3>
+                    <img src="./img/ventaS00001.png" alt="venta">
+                </th>
+                <th>
+                    <p>En la parte ventas lo que se realizan mayormente son pedidos de piezas.</p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <p>dsadsada</p>
+                </th>
+                <th>
+                    <h3>Sección facturación</h3>
+                    <img src="./img/inventario.png" alt="facturación">
+                </th>
+            </tr>
+        </table>
     </div>
-    <div class="cuerpo">
-        <img src="./img/JaénNovielloBetten.png" alt="LogoEmpresa">
+
+    <div class="reparaciones">
+        <table>
+            <h1 style="text-align: center;">Sección de reparaciones e inventario</h1>
+            <tr>
+                <td><img src="./img/reparacion.png" class="fotosborder"></td>
+                <td>
+                    <p>Repararación</p>
+                    <p>Trámite de reparación de teléfono móvil</p>
+                </td>
+            </tr>  
+            <tr>
+                <td style="text-align: right;">
+                    <p>Inventario</p>
+                    <p>Ejemplo de unidad de batería en stock</p>
+                </td>
+                <td><img src="./img/inventario.png" class="fotosborder"></td>
+            </tr>
+            <tr>
+                <td><img src="./img/reparacion.png" class="fotosborder"></td>
+                <td>
+                    <p>Repararación</p>
+                    <p>Trámite de reparación de teléfono móvil</p>
+                </td>
+            </tr>  
+        </table>
+
     </div>
+
     <footer>
         <!-- Aqui ira lo tipico del copyright y demas para dar el pego-->
     </footer>

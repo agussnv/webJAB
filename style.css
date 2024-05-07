@@ -1,5 +1,7 @@
 body {
-    background-color: #121615;
+    background-color: white;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
 }
 
 .top{
@@ -28,7 +30,7 @@ ul li {
 
 ul li a {
     font-size: 22px;
-    color: white;
+    color: black;
     text-decoration: none;
     position: relative;
     display: block;
@@ -42,7 +44,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #1cd8d2;
+    background-color: red;
     transform: scaleX(0);
     transform-origin: left;
     transition: all 0.5s;
@@ -112,4 +114,73 @@ li{
 
 footer{
     background-color: grey;
+}
+/*VENTAS*/
+
+.ventas{
+    display: flex;
+    justify-content: center;
+    border: 1px red solid;
+    margin-left: 5%;
+    margin-right: 5;
+}
+
+table tr th {
+    border: 1px red solid;
+    
+}
+
+
+.ventas img {
+    width: 650px;
+    height: 300px;
+}
+
+.ventas p {
+    font-size: 16px;
+}
+
+.ventas table {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*REPAPRACIONES*/
+
+.reparaciones img {
+    width: 650px;
+    height: 300px;
+}
+
+.fotosborder{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.verticalalign{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 80px;
+    border-radius: 100%;
+}
+
+#main{
+    display:flex;
+}
+
+#main div img{
+    border-radius: 10%;
+    margin-left: 100px;
 }
