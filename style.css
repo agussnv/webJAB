@@ -115,49 +115,6 @@ li{
 footer{
     background-color: grey;
 }
-/*VENTAS*/
-
-.ventas{
-    display: flex;
-    justify-content: center;
-    border: 1px red solid;
-    margin-left: 5%;
-    margin-right: 5;
-}
-
-table tr th {
-    border: 1px red solid;
-    
-}
-
-
-.ventas img {
-    width: 650px;
-    height: 300px;
-}
-
-.ventas p {
-    font-size: 16px;
-}
-
-.ventas table {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-
-/*REPAPRACIONES*/
-
-.reparaciones img {
-    width: 650px;
-    height: 300px;
-}
-
-.fotosborder{
-    border: 1px solid black;
-    border-radius: 20px;
-}
-
 .barra{
     display: flex;
     justify-content: space-between;
@@ -183,4 +140,23 @@ table tr th {
 #main div img{
     border-radius: 10%;
     margin-left: 100px;
+}
+
+#empleados{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 180px;
+    width: 300px;
+}
+
+.foto-perfil{
+    width: 100px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
