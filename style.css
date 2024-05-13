@@ -29,7 +29,7 @@ ul li {
 }
 
 ul li a {
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     text-decoration: none;
     position: relative;
@@ -100,12 +100,12 @@ li{
     margin-left: 10px;
     padding-right: 0%;
     border-radius: 100%;
-
 }
 
 .logo a {
     padding-right: 0%;
 }
+
 .cuerpo {
     margin-top: 10%;
     display: flex;
@@ -115,12 +115,56 @@ li{
 footer{
     background-color: grey;
 }
+
 .barra{
     display: flex;
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid black;
-    margin-bottom: 30px;
+}
+
+.titulo{
+    display:flex;
+    justify-content: center;
+    font-family: 'Sedan SC', serif;
+    font-size: 35px;
+    margin-bottom: -15px;
+    color: white;
+}
+
+.subtitulo{
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'Sedan SC', serif;
+    color: white;
+}
+
+#eslogan{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+#main{
+    display:flex;
+    background-color: rgba(0,0,0,0.8);
+    background-image: url("https://www.shutterstock.com/image-photo/central-processing-unit-other-computer-600nw-594646208.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 450px;
+    align-items: center;
+}
+
+#main::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.50);
 }
 
 .verticalalign{
@@ -133,8 +177,25 @@ footer{
     border-radius: 100%;
 }
 
-#main{
-    display:flex;
+#main *{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: #0080e9;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
 #main div img{
@@ -150,13 +211,32 @@ footer{
 .card{
     border: 1px solid black;
     border-radius: 10px;
-    height: 180px;
+    height: 120px;
     width: 300px;
 }
 
-.foto-perfil{
+.flex{
+    display: flex;
+}
+
+.center{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-contenedor{
     width: 100px;
-    border-top-left-radius: 10px;
+    height: 120px;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+
+.foto-perfil{
+    width: 100%;
+    height: 100%;
 }
