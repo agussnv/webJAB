@@ -4,12 +4,6 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.top{
-    /*Aqui poner estilo cuando sea necesario, de memento lo aplico solo a la etiqueta P*/
-    border: red 1px solid;
-
-}
-
 .top ul {
     list-style: none;
     margin-top: 0%;
@@ -44,7 +38,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: red;
+    background-color: rgb(255, 217, 0);
     transform: scaleX(0);
     transform-origin: left;
     transition: all 0.5s;
@@ -57,7 +51,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #1cd8d2;
+    background-color: rgb(255, 217, 0);
     transform: scaleX(0);
     transform-origin: right;
     transition: all 0.5s;
@@ -120,6 +114,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(20, 20, 20);
     border-bottom: 1px solid black;
 }
 
@@ -183,14 +178,14 @@ footer{
 }
 
 button{
-    background-color: #0080e9;
-    color: white;
+    background-color: rgb(255, 217, 0);
+    color: black;
     padding: 10px;
     border-radius: 10px;
     border: none;
     outline: none;
-    margin: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 a{
@@ -244,7 +239,7 @@ a{
 #first{
     background-color: black;
     text-align: center;
-    height: 100vh;
+    margin-top: -60px;
 }
 
 #first h2:first-child{
@@ -259,17 +254,6 @@ a{
 #first #subh2{
     font-weight: 200;
     font-size: 20px;
-}
-
-.containitems{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.containitems .items{
-    border: 1px solid white;
-    height: 300px;
-    width: 200px;
 }
 
 .numerogrande{
@@ -336,4 +320,42 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.containitems{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#servicios{
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.containimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.items{
+    border: 1px solid white;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+}
+
+.items img{
+    width: 100px;
+}
+
+.items h4{
+    color: rgb(255, 217, 0);
+}
+
+.items p{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
 }
